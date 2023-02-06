@@ -16,3 +16,5 @@ class Contact(BaseModel):
 db.drop_tables([Contact])
 db.create_tables([Contact])
 
+xavier = Contact(name = 'Xavier Valt', number = 8625549989, type = 'mobile')
+xavier.save()
